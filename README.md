@@ -1,6 +1,6 @@
 # Butternut Box Engineering Tasks
 
-![alt text](https://res.cloudinary.com/ldhg5acsz/image/upload/Web/photos/logos/butternut-logo-top.png)
+![](https://res.cloudinary.com/ldhg5acsz/image/upload/Web/photos/logos/butternut-logo-top.png)
 
 This repository hosts documentation and starter code for the coding tasks we use in the Engineering team interview process at Butternut Box. These tasks are designed to resemble features we would build as part of our day-to-day, so that you can get a sense of what it's like here.
 
@@ -34,7 +34,7 @@ discuss any aspect of the project.
 
 ### UI Design
 
-![alt text](calendar_task/task.png)
+![](calendar_task/task.png)
 
 ### Tooling
 
@@ -93,17 +93,17 @@ Note that all these designs are available in similar form on our live site if yo
 
 **Initial state:**
 
-![alt text](https://ibb.co/Wt6m4Lt)
+![](phone_number_task/designs/initial_state.png)
 
 **Valid State:**
 
-![alt text](https://ibb.co/NmQ9qys)
+![](phone_number_task/designs/valid_state.png)
 
 Note how the 'Your mobile number' moves to the top - this should be animated.
 
 **Invalid State:**
 
-![alt text](https://ibb.co/Wt6m4Lt)
+![](phone_number_task/designs/invalid_state.png)
 
 ### Icons
 
