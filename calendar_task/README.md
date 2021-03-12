@@ -22,7 +22,7 @@ discuss any aspect of the project.
 
 ### UI Design
 
-![](/task.png)
+![](task.png)
 
 ### Tooling
 
