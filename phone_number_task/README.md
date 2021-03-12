@@ -42,17 +42,17 @@ Note that all these designs are available in similar form on our live site if yo
 
 **Initial state:**
 
-![](/designs/initial_state.png)
+![](designs/initial_state.png)
 
 **Valid State:**
 
-![](/designs/valid_state.png)
+![](designs/valid_state.png)
 
 Note how the 'Your mobile number' moves to the top - this should be animated.
 
 **Invalid State:**
 
-![](/designs/invalid_state.png)
+![](designs/invalid_state.png)
 
 ### Icons
 
