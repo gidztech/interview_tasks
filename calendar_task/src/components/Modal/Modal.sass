@@ -1,0 +1,31 @@
+.modal
+  &__backdrop
+    display: flex
+    justify-content: center
+    align-items: center
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    background: rgba(0, 0, 0, 0.5)
+    z-index: 999
+    transition: opacity 1s ease-in-out
+    opacity: 0
+
+    &--animate
+      opacity: 1
+
+  &__container
+    z-index: 1
+    background-color: #fff
+    padding: 16px
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2)
+    transition: all 1s ease-in-out
+    max-width: 0
+    max-height: 0
+    min-width: 0
+
+    .modal__backdrop--animate &
+      max-height: 100%
+      max-width: 100%

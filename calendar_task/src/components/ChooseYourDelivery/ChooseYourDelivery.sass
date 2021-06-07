@@ -1,0 +1,83 @@
+
+@import '../../brand-colours'
+@import '../../fonts'
+
+.choose-your-delivery
+    width: 220px
+    padding: 8px
+    background: $grey-100
+
+    &__heading
+        line-height: 1.5
+
+    &__title
+        font-weight: bold
+        font-size: 20px
+
+    &__note
+        padding: 4px
+        font-size: 10px
+        background-color: $grey-200
+        margin-left: 16px
+
+    &__selection
+        display: flex
+        background: white
+        margin-top: 8px
+        box-shadow: 2px 2px 2px 0px $grey-200
+        padding: 8px
+        position: relative
+        overflow: hidden
+
+    &__selection-date
+        font-size: 12px
+
+    &__selection-icon
+        background: white
+
+    &__icon
+        width: 12px
+
+    &__earliest
+        background: $success-green-100
+        display: flex
+        font-size: 10px
+        align-items: center
+        padding: 4px
+        margin-top: 8px
+
+    &__earliest-text
+        margin-left: 4px
+
+    &__change-date
+        border-radius: 50%
+        background-color: $brand-blue-200
+        width: 80px
+        height: 80px
+        position: absolute
+        top: -16px
+        right: -16px
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: column
+
+    &__calendar
+        position: relative
+        margin-left: -8px
+
+    &__current-day
+        position: absolute
+        top: 4px
+        left: 0
+        font-size: 8px
+        text-align: center
+        width: 100%
+
+    &__change-button
+        border: 0
+        background: transparent
+        text-decoration: underline
+        margin-left: -12px
+        color: $brand-blue-600
+        cursor: pointer

@@ -1,0 +1,48 @@
+@import '../../brand-colours'
+
+.calendar
+    &__actions
+        display: flex
+        justify-content: space-evenly
+        margin-top: 16px
+
+    &__cancel
+        background: white
+        border: 0
+        text-transform: uppercase
+        color: $grey-500
+        font-weight: bold
+        width: 160px
+        padding: 8px
+        cursor: pointer
+    &__change
+        border: 0
+        font-weight: bold
+        text-transform: uppercase
+        color: $brand-red-400
+        border: 1px solid $brand-red-400
+        background: white
+        box-shadow: 2px 2px 2px 0px $grey-200
+        padding: 8px
+        cursor: pointer
+
+// CSS overrides for react-dates
+// CSS-in-JS would be a cleaner approach
+
+.CalendarDay
+    vertical-align: middle
+    border: 1px solid $brand-red-400 !important
+    color: $brand-red-400
+
+.CalendarDay:hover, .CalendarDay__selected
+    background: $brand-red-400
+    color: white
+
+.CalendarDay__blocked_out_of_range
+    background: $grey-300 !important
+    border: 1px solid $grey-300 !important
+    color: $grey-500 !important
+
+.CalendarMonth_table
+    border-spacing: 2px
+    border-collapse: separate
